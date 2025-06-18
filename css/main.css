@@ -176,6 +176,28 @@ footer a{
 footer a:hover{
     color: var(--pink)!important;
 }
+.shop-now-button {
+  background-color: #007BFF;        /* Blue background */
+  color: white;                     /* White text */
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shop-now-button:hover {
+  background-color: #0056b3;       /* Darker blue on hover */
+  transform: scale(1.05);          /* Slight zoom effect */
+}
+
+.shop-now-button:active {
+  transform: scale(0.98);          /* Click shrink effect */
+}
+
 
 /* media queries */
 @media(min-width: 992px){
